@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFExtensions.App", "EFExtensions.App\EFExtensions.App.csproj", "{6D7F4B06-FD98-4C68-8E80-80C40648D564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFExtensions.Library", "EFExtensions.Library\EFExtensions.Library.csproj", "{5BD53134-16E8-4914-9A13-4BA891FA9E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D7F4B06-FD98-4C68-8E80-80C40648D564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7F4B06-FD98-4C68-8E80-80C40648D564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7F4B06-FD98-4C68-8E80-80C40648D564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7F4B06-FD98-4C68-8E80-80C40648D564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD53134-16E8-4914-9A13-4BA891FA9E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD53134-16E8-4914-9A13-4BA891FA9E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD53134-16E8-4914-9A13-4BA891FA9E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD53134-16E8-4914-9A13-4BA891FA9E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25551F08-3743-4C37-B3B5-0194C2B829CB}
+	EndGlobalSection
+EndGlobal
