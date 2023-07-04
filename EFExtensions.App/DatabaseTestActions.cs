@@ -42,9 +42,9 @@ namespace EFExtensions.App
             using (var db = new EFExtensionTestDatabaseEntities())
             {
                 //db.InsertOrUpdate<PLDates>(u => new PLDates{ AppName = "Trader Supervision", Username = "singp57", Rundate = new DateTime(2023, 06, 21) });
-                //db.UpdateFromQuery<PLDates>(w => w.AppName == "Trader Supervision", u => new PLDates { Rundate = new DateTime(2023, 06, 24) });
-                db.PLDates.Where(w => w.AppName == "Trader Supervision").UpdateFromQuery(u => u.Rundate = new DateTime(2023, 06, 26));
-                db.SaveChanges();
+                db.UpdateFromQuery<PLDates>(w => w.AppName == "Trader Supervision", u => new PLDates { Rundate = new DateTime(2023, 06, 24), Username = "yanr2" });
+                //db.PLDates.Where(w => w.AppName == "Trader Supervision").UpdateFromQuery(u => u.Rundate = new DateTime(2023, 06, 26));
+                //db.SaveChanges();
             }
         }
     }
